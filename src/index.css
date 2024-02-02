@@ -130,14 +130,14 @@ li a {
 .modal-btn-container {
   position: absolute;
   top: 50%;
-  left: 45%;
+  left: 35%;
   display: flex;
   align-content: center;
 }
 
 .modal-btn {
-  width: 8rem;
-  height: 2rem;
+  width: 30vw;
+  height: 10vh;
   background-color: rgba(0, 139, 139, 0);
   border: 2px solid darkcyan;
   color: black;
@@ -155,12 +155,11 @@ li a {
 
 .modal-container {
   position: absolute;
-  top: -300%;
-  left: -200%;
+  top: -100%;
+  left: -90%;
   background-color: white;
-  width: 90vw;
+  width: 80vw;
   height: 20rem;
-  margin-left: 2rem;
   z-index: 101;
 }
 
@@ -175,12 +174,25 @@ li a {
   text-transform: capitalize;
 }
 
+
 @media screen and (min-width:800px) {
   .sidebar-container {
     width: 30%;
   }
 
+  .modal-btn-container {
+    left: 45%;
+  }
+
+  .modal-btn {
+    width: 8rem;
+    height: 4rem;
+  }
+
   .modal-container {
-    width: 30rem;
+    top: -150%;
+    left: -150%;
+    width: 45vw;
+    height: 20rem;
   }
 }
